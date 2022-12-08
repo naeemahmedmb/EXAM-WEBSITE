@@ -11,6 +11,38 @@
       crossorigin="anonymous"
     />
     <title>Exam Website</title>
+    <style>
+      html {
+        font-family: sans-serif;
+        background-color: gray;
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+      }
+
+      header {
+        background: url(img/img1.jpg) no-repeat center;
+        height: 200px;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+
+      img {
+        display: ;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
     <div class="m-4">
@@ -30,7 +62,7 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
               <a href="#" class="nav-item nav-link active">Home</a>
-              <a href="#" class="nav-item nav-link active">service</a>
+              <a href="#" class="nav-item nav-link active">Service</a>
               <a href="#" class="nav-item nav-link active">About</a>
               <a href="#" class="nav-item nav-link active">Projects</a>
               <a href="#" class="nav-item nav-link active">blog</a>
@@ -42,81 +74,49 @@
           </div>
         </div>
       </nav>
+      <header></header>
+
+      <main>
+        <section>
+          <h1>My website</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget
+            venenatis ligula. Ut lacinia at dolor vitae pulvinar. Aliquam
+            pretium dignissim eros. Integer faucibus, dui non aliquet bibendum,
+            lectus orci lobortis odio, ornare porttitor est tellus eget velit.
+            Nulla eros elit, malesuada id neque vel, viverra vehicula neque.
+            Nullam auctor turpis non leo iaculis finibus. Quisque blandit arcu
+            venenatis libero tempor, ac pulvinar ligula dapibus.
+          </p>
+
+          <img
+            src="img/naeem.png"
+            alt="Chris standing up holding his daughter Elva"
+          />
+
+          <p>
+            Suspendisse potenti. Ut in luctus eros. Mauris pulvinar vehicula
+            aliquet. Etiam imperdiet eleifend luctus. Duis ut justo nec eros
+            ornare consectetur. Vestibulum convallis condimentum varius.
+            Maecenas rutrum porta varius. Phasellus volutpat sem id sagittis
+            luctus. Morbi vitae quam vitae nisi iaculis dignissim.
+          </p>
+
+          <img src="img/c2.jpg" alt="Elva dressed as a fairy" />
+
+          <p>
+            Header image originally by
+            <a href="https://www.naeemmb.com">Naeem Ahned</a
+            >.
+          </p>
+        </section>
+      </main>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"
+      ></script>
     </div>
-    <div class="row">
-      <div class="col-6">
-        <div
-          id="carouselExampleDark"
-          class="carousel carousel-white slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="/img/g1.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Gardens since 1990</h5>
-              </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="/img/g2.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Gardens since 1990</h5>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="/img/g3.webp" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Gardens since 1990</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
